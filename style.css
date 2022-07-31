@@ -1,0 +1,59 @@
+.bold-words{
+    font-weight: bold;
+}
+
+body {
+    background-image: url('img/curtains.jpg');
+    background-size: cover;
+}
+
+.crvena-zavesa {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+    text-decoration:solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.crvena-zavesa-podnaslov {
+    text-align: center;
+    color: #fff;
+    text-decoration:solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .row .col-md-3 {
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    transition: 0.1s;
+}
+
+.container .row .col-md-3 .row img {
+    border-radius: 10%;
+}
+
+.container .row .col-md-3:hover {
+    margin-top:10px;
+}
+
+.container .row .col-md-3 .row .price .dollar-price{
+    font-size: 25px;
+}
+
+.dno, .total {
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-decoration:solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .row .col-md-3 .row button{
+    border-radius: 20px;
+}
+
+.remove-item {
+    border-radius: 20px;
+}

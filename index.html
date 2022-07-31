@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Crvena zavesa</title>
+</head>
+<body>
+    <h1 class="crvena-zavesa">Crvena zavesa</h1>
+    <h5 class="crvena-zavesa-podnaslov">najbolji filmovi na Balkanu</h5>
+
+    <!--bootstrap koriscen-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+                    <img src="img/treasure.png" alt="Treasure Lies" height="400px">
+                </div>
+                <div class="row">
+                    <div class="name">
+                        <span class="bold-words">Naziv: </span> <span class="naziv">Lazno bogatstvo</span>
+                    </div>
+                    <div class="description">
+                        <span class="bold-words">Opis: </span> Vredni tinejdzer Son se oseca iznevereno zivotom, ali se suocava sa krizom karaktera zbog niza sopstvenih losih odluka.
+                    </div>
+                    <div class="rating">
+                        <span class="bold-words">Ocena: </span> &#11088 &#11088 &#11088 &#11088
+                    </div>
+                    <div class="duration">
+                        <span class="bold-words">Trajanje: </span> <span class="minute-duration">105</span>min
+                    </div>
+                    <div class="price">
+                        <span class="bold-words">Cena: </span> $<span class="dollar-price">10</span>
+                    </div>
+                    <button onclick="dodaj(this)">Gledaj</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="row">
+                    <img src="img/bojnakosovu.png" alt="Boj na Kosovu" height="400px">
+                </div>
+                <div class="row">
+                    <div class="name">
+                        <span class="bold-words">Naziv: </span> <span class="naziv">Boj na Kosovu</span>
+                    </div>
+                    <div class="description">
+                        <span class="bold-words">Opis: </span> Jugoslovenski film iz 1989. godine koji se bavi najcuvenijom bitkom u istoriji Srbije. Kosovski boj cete kroz ovaj film doziveti kroz potpuno drugaciju dimenziju.
+                    </div>
+                    <div class="rating">
+                        <span class="bold-words">Ocena: </span> &#11088 &#11088 &#11088 
+                    </div>
+                    <div class="duration">
+                        <span class="bold-words">Trajanje: </span> <span class="minute-duration">90</span>min
+                    </div>
+                    <div class="price">
+                        <span class="bold-words">Cena: </span> $<span class="dollar-price">20</span>
+                    </div>
+                    <button onclick="dodaj(this)">Gledaj</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="row">
+                    <img src="img/charm.png" alt="Charm Love" height="400px">
+                </div>
+                <div class="row">
+                    <div class="name">
+                        <span class="bold-words">Naziv: </span> <span class="naziv">Ljubav iz Charma</span>
+                    </div>
+                    <div class="description">
+                        <span class="bold-words">Opis: </span> Devojka na leto posecuje rodjaka. Preko leta je izlozena drugom svetu, pronalazi prijateljstvo i jos mnogo toga. Uskoro mora izabrati zivot koji zeli da zivi.
+                    </div>
+                    <div class="rating">
+                        <span class="bold-words">Ocena: </span> &#11088 &#11088 &#11088 &#11088 &#11088 
+                    </div>
+                    <div class="duration">
+                        <span class="bold-words">Trajanje: </span> <span class="minute-duration">75</span>min
+                    </div>
+                    <div class="price">
+                        <span class="bold-words">Cena: </span> $<span class="dollar-price">30</span>
+                    </div>
+                    <button onclick="dodaj(this)">Gledaj</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="row">
+                    <img src="img/ptice.png" alt="Ptice koje ne polete" height="400px">
+                </div>
+                <div class="row">
+                    <div class="name">
+                        <span class="bold-words">Naziv: </span> <span class="naziv">Ptice koje ne polete</span>
+                    </div>
+                    <div class="description">
+                        <span class="bold-words">Opis: </span> Lekari su maloj Vesni predvideli jos samo godinu dana zivota. Ona odlazi kod dede koji zivi prirodnim zivotom. Da li ce pobediti u borbi sa opakom bolescu?
+                    </div>
+                    <div class="rating">
+                        <span class="bold-words">Ocena: </span> &#11088 &#11088 &#11088 &#11088
+                    </div>
+                    <div class="duration">
+                        <span class="bold-words">Trajanje: </span> <span class="minute-duration">80</span>min
+                    </div>
+                    <div class="price">
+                        <span class="bold-words">Cena: </span> $<span class="dollar-price">40</span>
+                    </div>
+                    <button onclick="dodaj(this)">Gledaj</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="dno">
+                    <h4>Potroseno novca(pojedinacno): </h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="total">
+                    <h4>Potroseno novca(ukupno): </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    
+    <script src="script.js"></script>
+</body>
+</html>
